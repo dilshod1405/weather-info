@@ -1,7 +1,17 @@
 from fastapi import FastAPI, HTTPException
 from services.weather_service import fetch_city_coordinates, fetch_weather_by_coords
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # React dev server
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
+
 
 @app.get("/weather/{city}")
 async def get_weather(city: str):

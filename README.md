@@ -25,7 +25,7 @@ This project is a weather information API built with FastAPI that allows users t
 
 ### Prerequisites:
 
-1. Python 3.10+
+1. Python 3.10+  <a href="https://www.python.org/"><img src="https://www.python.org/static/img/python-logo.png" style="width: 100px"></a>
 2. Install FastAPI and Uvicorn
 
 ### Install dependencies:

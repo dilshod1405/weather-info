@@ -49,7 +49,6 @@ Your API will be running at `http://127.0.0.1:8000`.
 ### Example Request:
 
 - **URL**: `http://127.0.0.1:8000/weather/London`
-- 
 
 ### Acknowledgments:
 

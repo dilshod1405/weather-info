@@ -25,8 +25,10 @@ This project is a weather information API built with FastAPI that allows users t
 
 ### Prerequisites:
 
-1. Python 3.10+  <a href="https://www.python.org/"><img src="https://www.python.org/static/img/python-logo.png" style="width: 100px"></a>
-2. Install FastAPI and Uvicorn <a href="https://fastapi.tiangolo.com/"><img src="https://fastapi.tiangolo.com/img/icon-white.svg" style="width: 100px"></a>  <a href="https://www.uvicorn.org/"><img src="https://www.uvicorn.org/uvicorn.png" style="width: 100px"></a>
+1. Python 3.10+
+- **<a href="https://www.python.org/"><img src="https://www.python.org/static/img/python-logo.png" style="width: 100px"></a>**
+3. Install FastAPI and Uvicorn
+- **<a href="https://fastapi.tiangolo.com/"><img src="https://fastapi.tiangolo.com/img/icon-white.svg" style="width: 80px"></a>  <a href="https://www.uvicorn.org/"><img src="https://www.uvicorn.org/uvicorn.png" style="width: 80px"></a>**
 
 ### Install dependencies:
 
